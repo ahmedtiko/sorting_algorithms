@@ -49,7 +49,7 @@ int partition(int *array, int low, int high, size_t size)
 		print_array(array, size);
 	}
 
-	return(i + 1);
+	return (i + 1);
 }
 
 /**
