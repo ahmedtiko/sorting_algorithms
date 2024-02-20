@@ -41,7 +41,7 @@ void counting_sort(int *array, size_t size)
 	/* Count occurrences of each element in the array */
 	for (i = 0; i < size; i++)
 	{
-		count[array[i]]++;
+		count_array[array[i]]++;
 	}
 
 	/* Accumulate the count_array */
